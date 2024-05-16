@@ -1,0 +1,32 @@
+
+.homebtn{
+    font-weight: 600;
+    padding:12px 30px;
+    border-radius:30px;
+     border-color:rgba(255, 255, 255, 0.3);
+     outline:none;
+     background-color:transparent;
+}
+
+.homebtn:hover{
+        border-color: white;
+      
+}
+
+.imageanim{
+        padding: 1em;
+        border-radius: 10px;
+        width: fit-content;
+        transition: 0.5s;
+}
+
+.imageanim:hover::after{
+        content:"";
+        background-color: #f2f2f25e;
+        width:300px;
+        height:500px;
+}
+
+.imageanim:hover{
+                margin-top: -10px;  
+         } 
